@@ -1,8 +1,8 @@
 <settings>
 	<category label="Website">
         <setting id="domain" type="labelenum" label="Domain"
-                 values="http://www.primewire.ag|http://www.1channel.ch|http://www.1channel.ag"
-                 default="http://www.primewire.ag"/>
+                 values="http://www.primewire.org|http://www.primewire.ag|http://www.1channel.ch|http://www.1channel.ag"
+                 default="http://www.primewire.org"/>
         <setting id="enableDomain" 	type="bool" label="Enable Custom Domain" default="false" visible="true"/>
         <setting id="customDomain" 	type="text" label="Custom Domain" default="http://1channel.occupyuk.co.uk" enable="!eq(-1,false)" />
         <setting type="sep"/>
